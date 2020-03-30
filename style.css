@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url('gory_zakat_sumerki.jpg') no-repeat;
+	background-size: cover;
+}
+.list{
+	width: 860px;
+	margin: 0 auto;
+}
+ .list ul{
+	font-family: 'Josefin Sans', sans-serif;
+	list-style: none;
+	margin-top: 1%;
+}
+.list ul li{
+	position: relative;
+	background: rgba(41, 61, 86, .8);
+	width: 170px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left; 
+	color: white;
+	font-size: 20px;
+	margin-right: 2px;
+}
+.list ul li:hover{
+	background: rgba(253, 233, 48, .8);
+	color: black;
+}
+.list ul ul{
+	display: none;
+}
+.list ul li:hover > ul{
+	display: block;
+}
+.list ul ul ul{
+	margin-left: 170px;
+	top: 0;
+	position: absolute;
+}
+
+
+
